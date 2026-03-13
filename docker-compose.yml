@@ -1,7 +1,7 @@
 services:
   frontend:
-    image: on5en/234-deploylab-frontend:latest
+    image: puddingricecake/lab11-se234-672115017:latest
     pull_policy: always
     ports:
-      - "8081:80"
+      - "8081:8080"
     restart: unless-stopped
