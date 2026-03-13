@@ -1,6 +1,6 @@
 services:
   frontend:
-    image: puddingricecake/lab11-se234-672115017:latest
+    image: puddingricecake/234-deploylab-frontend:latest
     pull_policy: always
     ports:
       - "8081:8080"
